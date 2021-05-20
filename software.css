@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+.responsivo {
+    font-size: 1.09em;
+    color: black;
+}
+@media only screen and (max-width:620px) {
+    .responsivo, ul, table, th, td, caption {
+        width: 100%;
+    }
+}

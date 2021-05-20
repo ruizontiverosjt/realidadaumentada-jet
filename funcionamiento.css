@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.adaptation {
+    font-size: 1.09em;
+    color: black;
+}
+@media only screen  and (max-width:620px){
+    .adaptation, img {
+         
+        width: 100%;
+    }
+}

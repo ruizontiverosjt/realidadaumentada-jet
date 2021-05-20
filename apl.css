@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.textoadap {
+    font-size: 1.09em;
+    color: black;
+
+}
+@media only screen and (max-width:620px){
+    .textoadap, dd, ol, li {
+        width: 100%;
+    }
+}

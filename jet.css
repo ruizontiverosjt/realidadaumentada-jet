@@ -1,0 +1,26 @@
+.correo {
+    float: center;
+    width: 100%;
+    text-align: center;
+
+}
+.correo a{
+    background-color: black;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: #58FAAC;
+}
+.adaptable {
+    font-size: 1em;
+}
+h1 {font-size: 10vw;}
+*{
+    box-sizing: border-box;
+}
+@media only screen and (max-width:620px){
+    .correo, a, p, audio {
+        width:100%
+    }
+}

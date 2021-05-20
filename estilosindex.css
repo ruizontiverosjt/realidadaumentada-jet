@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.enlace {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+.enlace a {
+    background-color: #58FAAC;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black ;
+}
+.jet {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.jet a {
+    background-color: #58FAAC;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+a {
+    color:#58FAAC;
+    text-align: center;
+}
+@media only screen and (max-width:620px){
+    .enlace, .jet {
+        width:100%
+    }
+}
